@@ -1,13 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 body {
   background: #fff;
@@ -16,7 +6,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #0140EB;
   transition: 0.5s;
 }
 
@@ -72,7 +62,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #0140EB;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -114,7 +104,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #0140EB;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -175,7 +165,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #header #logo h1 a,
@@ -186,7 +176,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -288,7 +278,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #0140EB;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +292,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: #0140EB;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #0140EB;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -346,7 +336,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: #0140EB;
   color: #fff;
 }
 
@@ -413,7 +403,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +420,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #mobile-body-overly {
@@ -461,10 +451,6 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
-
-/*--------------------------------------------------------------
-# Intro Section
---------------------------------------------------------------*/
 
 #intro {
   width: 100%;
@@ -517,7 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #intro p {
@@ -526,79 +512,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
 }
 
-#intro .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
-  border-radius: 50%;
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-#intro .play-btn::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-#intro .play-btn:before {
-  content: '';
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 2px solid rgba(163, 163, 163, 0.4);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-
-#intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
-  -webkit-transform: scale(20);
-  transform: scale(20);
-}
-
-#intro .play-btn:hover::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  -webkit-animation: none;
-  animation: none;
-  border-radius: 0;
-}
 
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
@@ -614,11 +527,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #0140EB;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: #0140EB;
   color: #fff;
 }
 
@@ -742,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a:hover {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #speakers .speaker:hover .details {
@@ -777,7 +690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details .social a:hover {
-  background: #f82249;
+  background: #0140EB;
   color: #fff;
 }
 
@@ -822,7 +735,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: #0140EB;
   color: #fff;
 }
 
@@ -995,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels a:hover {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #hotels .stars {
@@ -1045,7 +958,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color: #0140EB;
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1053,7 +966,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #f82249;
+  border: 6px solid #0140EB;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1061,9 +974,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1;
 }
 
-/*--------------------------------------------------------------
-# supporters Section
---------------------------------------------------------------*/
+
 
 #supporters {
   padding: 60px 0;
@@ -1142,7 +1053,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #faq #faq-list a.collapsed {
@@ -1195,7 +1106,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #0140EB;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1255,7 +1166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #0140EB;
   border: 0;
   color: #fff;
 }
@@ -1274,7 +1185,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #f82249;
+  background-color: #0140EB;
   border: 0;
   color: #fff;
 }
@@ -1300,7 +1211,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #f82249;
+  color: #0140EB;
 }
 
 #contact .contact-info address,
@@ -1322,7 +1233,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #contact .contact-address,
@@ -1332,8 +1243,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #f82249;
-  border: 1px solid #f82249;
+  color: #0140EB;
+  border: 1px solid #0140EB;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1374,7 +1285,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #f82249;
+  background: #0140EB;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1418,7 +1329,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  /*height: 80px;*/
   margin-bottom: 10px;
 }
 
@@ -1446,7 +1357,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #0140EB;
   color: #fff;
 }
 
@@ -1457,7 +1368,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #0140EB;
 }
 
 #footer .footer-top .footer-links {
@@ -1472,7 +1383,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #0140EB;
   font-size: 18px;
 }
 
@@ -1490,7 +1401,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: #0140EB;
 }
 
 #footer .footer-top .footer-contact {
@@ -1512,7 +1423,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f82249;
+  background: #0140EB;
   border: 0;
   width: 35%;
   padding: 6px 0;
