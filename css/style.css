@@ -1195,11 +1195,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #e0072f;
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-
 #contact {
+  margin-top:40px;
   padding: 60px 0;
 }
 
